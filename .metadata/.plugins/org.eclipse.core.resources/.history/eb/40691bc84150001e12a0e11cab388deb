@@ -1,0 +1,21 @@
+package day18;
+
+import java.time.LocalDateTime;
+
+public class LocalDateType01 {
+
+	public static void main(String[] args) {
+		/* LocalDateIme : 현재 날짜 시간 처리
+		 * LocalTime : 시간만
+		 * LocalDate : 날짜만
+		 * 
+		 */
+		
+		LocalDateTime today=LocalDateTime.now();
+		System.out.println(today);
+		System.out.println(today.getYear());
+		System.out.println(today.toString());
+		
+	}
+
+}

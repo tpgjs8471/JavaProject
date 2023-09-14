@@ -1,0 +1,17 @@
+package day19;
+
+import java.util.ArrayList;
+
+public class String04 {
+
+	public static void main(String[] args) {
+		// Student 클래스를 가지는 List생성
+		// 5명 정도의 값을 추가
+		
+		//steam 구성 후 출력
+		ArrayList<Student> list = new ArrayList<>();
+		list.add("김씨","80");
+
+	}
+
+}

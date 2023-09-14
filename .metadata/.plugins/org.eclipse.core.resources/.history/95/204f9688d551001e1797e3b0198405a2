@@ -1,0 +1,57 @@
+package StudentManager2;
+
+import java.util.Scanner;
+
+public class StudentManager implements Program{
+
+	@Override
+	public void addStd(Scanner scan) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void printStd() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void searchStd(Scanner scan) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void modStd(Scanner scan) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delStd(Scanner scan) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addSub(Scanner scan) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void modSub(Scanner scan) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delSub(Scanner scan) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	
+}

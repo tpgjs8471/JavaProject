@@ -1,0 +1,15 @@
+package day18;
+
+import java.util.ArrayList;
+
+
+public class SaleManager {
+	
+	//Menu 클래스를 리스트로 구현
+	ArrayList<Menu> sale=new ArrayList<>();
+	//메뉴리스트, 주문리스트 구현
+	sale=null;
+	
+	//메뉴 추가기능, 생성, 주문 처리
+	
+}

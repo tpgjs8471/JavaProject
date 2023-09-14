@@ -1,0 +1,31 @@
+package day21;
+
+import java.io.File;
+
+public class FileObject {
+
+	public static void main(String[] args) {
+		// 파일이 가지고 있는 정보 출력
+		File f = new File("D:\\OSH\\java_workstaa\\java project\\out.txt");
+		System.out.println(f.getName());	//경로를 제외한 이름
+		System.out.println(f.getPath());	//경로+이름
+		System.out.println(f.getParent());	//경로
+		System.out.println(File.separator);	//파일구분자 (많이 사용)
+		
+		//파일명과 경로가 String 형태로 들어온다면... 구분
+		String fstr = f.toString();
+		System.out.println(fstr);
+		//fsrt에서 드라이브만 출력
+		String s=fstr.substring(0, 1);
+		System.out.println(s);
+		//파일명만 추출
+		s=fstr.substring(fstr.indexOf("t"+File.separator)+1);
+		System.out.println(s);
+		//파일경로만 추출
+		s=f.getParent();
+		System.out.println(s);
+		
+		
+	}
+
+}

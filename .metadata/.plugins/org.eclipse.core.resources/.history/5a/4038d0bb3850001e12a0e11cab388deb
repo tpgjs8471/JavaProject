@@ -1,0 +1,23 @@
+package day18;
+
+import java.util.TreeSet;
+
+public class Set03 {
+
+	public static void main(String[] args) {
+		/* 삽입 : Arratlist 유리 
+		 * LinkedList : 삽입, 삭제 유리 
+		 * 어떤 List, Set, Map 이든 선언 -> 메서드 사용.
+		 * 내부 동작에는 구조가 좀 다름.
+		 * 각 List,Set,Map 마다 본인만의 메서드 다름.
+		 */
+		
+		//Set : TreeSet > 검색에 유리 = 순차로 데이터를 정렬해서 저장
+		
+		//해당 점수들 중 가장 큰 점수와 가장 작은 점수를 출력
+		int[] score={80,89,94,78,59,84,56,75};
+		TreeSet<Integer> set = new TreeSet<>();
+		
+	}
+
+}

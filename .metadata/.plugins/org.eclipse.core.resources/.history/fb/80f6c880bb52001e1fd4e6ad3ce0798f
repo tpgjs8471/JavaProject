@@ -1,0 +1,13 @@
+package day21;
+
+import java.io.File;
+
+public class FileObject {
+
+	public static void main(String[] args) {
+		// 파일이 가지고 있는 정보 출력
+		File f = new File("D:\\OSH\\java_workstaa\\java project\\out.txt");
+		
+	}
+
+}

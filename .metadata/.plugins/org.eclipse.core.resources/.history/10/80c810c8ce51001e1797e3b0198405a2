@@ -1,0 +1,5 @@
+package StudentManager2;
+
+public interface Program {
+
+}

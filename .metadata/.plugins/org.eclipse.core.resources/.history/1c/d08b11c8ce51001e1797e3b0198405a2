@@ -1,0 +1,22 @@
+package day19;
+
+public class Subject {
+//	1.학생등록 | 2.학생검색 | 3.학생리스트
+//    4.수강신청 | 5.수강철회 | 6.종료
+	private String subject;
+	
+	public Subject() {
+		this.subject=null;
+	}
+	public Subject(String delete) {
+		this.subject=delete;
+	}
+	
+	public String getSubject() {
+		return subject;
+	}
+	public void setSubject(String subject) {
+		this.subject = subject;
+	}
+	
+}

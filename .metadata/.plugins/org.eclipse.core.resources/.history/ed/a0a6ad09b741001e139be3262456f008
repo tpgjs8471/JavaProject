@@ -1,0 +1,38 @@
+package day06;
+
+import java.util.Scanner;
+
+public class 과제 {
+
+	public static void main(String[] args) {
+		
+		
+		/* 가위바위보게임 만들기
+		 * 컴퓨터가 가위, 바위, 보 중 랜덤으로 선택 Math.random
+		 * (0=가위, 1=바위, 2=보)
+		 * 나도 가위, 바위, 보 중 선택해서 입력 (숫자, 문자상관없음.) Scanner
+		 * 결과 =>
+		 * 컴퓨터 > 가위, 나 > 가위  => 결과 무승부입니다.  switch/case
+		 * */
+		
+		Scanner scan=new Scanner(System.in);
+		int random=(int)(Math.random()*3);
+		System.out.println(random);
+		System.out.println("가위/0 바위/1 보/2");
+		int user=scan.nextInt();
+		
+		switch(user) {
+		case '0' : 
+			System.out.println("사용자 :가위");
+			if(random==0) {
+				System.out.println("컴퓨터 :가위"+"==> 무승부 입니다.");
+			}
+			break;
+		}
+		
+		
+		
+
+	}
+}
+
