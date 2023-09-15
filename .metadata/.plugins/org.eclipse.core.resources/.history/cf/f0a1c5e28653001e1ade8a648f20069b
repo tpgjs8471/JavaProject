@@ -1,0 +1,23 @@
+package Aprject;
+
+import java.util.ArrayList;
+
+public class Game {
+
+	public static void main(String[] args) {
+		ArrayList<CardDeck> User=new ArrayList<>();
+		ArrayList<CardDeck> Computer=new ArrayList<>();
+		
+		CardDeck deck = new CardDeck();
+		
+		for(int i=1;1<=53;i++) {
+			if(i<(53/2)) {
+				User.add(deck);
+			}else {
+				Computer.add(deck);
+			}
+		}
+		System.out.println();
+	}
+
+}

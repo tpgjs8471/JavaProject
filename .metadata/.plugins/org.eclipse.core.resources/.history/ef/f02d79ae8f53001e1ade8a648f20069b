@@ -1,0 +1,17 @@
+package Aprject;
+
+import java.util.ArrayList;
+
+public class Game {
+
+	public static void main(String[] args) {
+		ArrayList<CardDeck> User=new ArrayList<>();
+		ArrayList<CardDeck> Computer=new ArrayList<>();
+		ArrayList<CardDeck> Deck = new ArrayList<>();
+		
+		
+		
+		}
+	}
+
+}

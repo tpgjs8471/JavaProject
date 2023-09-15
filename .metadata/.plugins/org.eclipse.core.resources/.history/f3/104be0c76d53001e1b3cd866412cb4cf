@@ -1,0 +1,14 @@
+package Test;
+
+public class CarrdPack2 {
+	
+}
+class Card{
+private char shape;  //모양
+private int num; //숫자
+
+public Card() {
+	shape = '♥';
+	num = 1;
+}
+}

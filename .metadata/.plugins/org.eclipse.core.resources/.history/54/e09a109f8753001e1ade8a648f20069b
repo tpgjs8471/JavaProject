@@ -1,0 +1,19 @@
+package Aprject;
+
+import java.util.ArrayList;
+
+public class Game {
+
+	public static void main(String[] args) {
+		ArrayList<CardDeck> User=new ArrayList<>();
+		ArrayList<CardDeck> Computer=new ArrayList<>();
+		
+		CardDeck deck = new CardDeck();
+		
+		User.add(deck);
+		
+		
+		}
+	}
+
+}

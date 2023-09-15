@@ -1,0 +1,30 @@
+package Test;
+
+public class test {
+
+	
+	public static void main(String[] args) {
+		
+		String str="hello";
+		str.length();
+		
+	}
+
+}
+class tes{
+	int x;
+	int y;
+	public tes() {}
+	public tes(int x,int y){
+		this.x=x;
+		this.y=y;
+	}
+}
+class tes1 extends tes{
+	int z;
+	public tes1() {}
+	public tes1(int x,int y,int z) {
+		super();
+		this.z=z;
+	}
+}

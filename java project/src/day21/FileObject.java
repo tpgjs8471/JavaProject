@@ -16,13 +16,13 @@ public class FileObject {
 		String fstr = f.toString();
 		System.out.println(fstr);
 		//fsrt에서 드라이브만 출력
-		String s=fstr.substring(0, 1);
+		String s=fstr.substring(0,fstr.indexOf(File.separator));
 		System.out.println(s);
 		//파일명만 추출
-		s = fstr.substring(fstr.lastIndexOf(File.separator));
+		s = fstr.substring(fstr.lastIndexOf(File.separator)+1);
 		System.out.println(s);
 		//파일경로만 추출
-		s=fstr.substring(fstr.indexOf(File.separator),fstr.lastIndexOf(File.separator));
+		s=fstr.substring(fstr.indexOf(File.separator),fstr.lastIndexOf(File.separator)+1);
 		System.out.println(s);
 		
 		
